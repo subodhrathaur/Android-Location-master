@@ -16,7 +16,7 @@ GoogleApiClient.ConnectionCallbacks,
  private var mLocationRequest: LocationRequest? = null
 ```
 
-### Then initialize both class in your ```Kotlin  oncreate() ```
+### Then initialize both class in your ```oncreate()```
 ```Kotlin
             mGoogleApiClient = GoogleApiClient.Builder(this!!)
                 .addApi(LocationServices.API)
@@ -46,7 +46,7 @@ GoogleApiClient.ConnectionCallbacks,
         }
 ```
 
-### In [updateLocation(lat: Double, lng: Double)] method you will get the location of your device
+### In ```updateLocation(lat: Double, lng: Double) ``` method you will get the location of your device
 
 ```Kotlin
 Log.v("DeviceLocation",lat+""+lng)
