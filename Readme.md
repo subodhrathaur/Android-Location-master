@@ -52,6 +52,8 @@ GoogleApiClient.ConnectionCallbacks,
 Log.v("DeviceLocation",lat+""+lng)
 ```
 
+### You output will be something like this
+
 
 ![alt text](https://github.com/subodhrathaur/Android-Location-master/blob/master/andorid_location.png?raw=true)
 
