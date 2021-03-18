@@ -16,8 +16,7 @@ GoogleApiClient.ConnectionCallbacks,
  private var mLocationRequest: LocationRequest? = null
 ```
 
-### Then initialize both class in your [oncreate()]
-
+### Then initialize both class in your ```Kotlin  oncreate() ```
 ```Kotlin
             mGoogleApiClient = GoogleApiClient.Builder(this!!)
                 .addApi(LocationServices.API)
