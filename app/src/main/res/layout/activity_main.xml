@@ -7,37 +7,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.google.android.material.card.MaterialCardView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLogger"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        app:cardElevation="10dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp">
-
-            <TextView
-                android:id="@+id/tv_latitude"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Latitude"
-                android:padding="10dp"
-                android:textColor="@color/black"
-                android:textSize="18dp" />
-
-            <TextView
-                android:id="@+id/tv_langitude"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Latitude"
-                android:padding="10dp"
-                android:textColor="@color/black"
-                android:textSize="18dp" />
-
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

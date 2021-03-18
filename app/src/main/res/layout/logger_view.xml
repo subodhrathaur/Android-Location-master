@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="10dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvLatLng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Current lat lng is : 28.5898477  77.3074119"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+</com.google.android.material.card.MaterialCardView>
