@@ -5,8 +5,8 @@
 
 ```Kotlin
 GoogleApiClient.ConnectionCallbacks,
-    com.google.android.gms.location.LocationListener,
-    GoogleApiClient.OnConnectionFailedListener
+LocationListener,
+GoogleApiClient.OnConnectionFailedListener
 ```
 
 ### Put below code on your class lavel
